@@ -1,24 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxo - Aluguel de Iates</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxo - Aluguel de Iates</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6f2ff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 5px 0;
+    }
+
+    header ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    header ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    header ul li a:hover {
+      color: #004080;
+      background-color: #a3d5ff;
+      border-radius: 5px;
+    }
+
+    header img {
+      max-width: 100px;
+      margin-top: 15px;
+    }
+
+    p {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      header img {
+        max-width: 80px;
+      }
+
+      p {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    
-    <header>
-        <h1>Luxo</h1>
-        <h1>Aluguel de Iates</h1>
-        <ul>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Aluguel de Iates</a></li>
-            <li><a href="#">Destinos</a></li>
-            <li><a href="#">Tripulação</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-        <img src="imagens/barco1.png" alt="Logo barco">
-    </header>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus, beatae expedita incidunt suscipit consequatur odit quidem animi autem voluptatum illo dolorum quod commodi sed dolores cupiditate asperiores officiis hic.</p>
+
+  <header>
+    <h1>Luxo</h1>
+    <h1>Aluguel de Iates</h1>
+    <ul>
+      <li><a href="#">Página Inicial</a></li>
+      <li><a href="#">Aluguel de Iates</a></li>
+      <li><a href="#">Destinos</a></li>
+      <li><a href="#">Tripulação</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <img src="imagens/barco1.png" alt="Logo barco">
+  </header>
+
+  <p>
+    Navegue com conforto, elegância e liberdade. Descubra o prazer de viver a bordo de um iate de luxo e transforme sua próxima viagem em uma experiência inesquecível.
+  </p>
+
 </body>
 </html>
+
