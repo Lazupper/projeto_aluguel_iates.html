@@ -1,24 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxo - Aluguel de Iates</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxo - Aluguel de Iates</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6f2ff;
+      color: #003366;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 5px;
+      font-size: 2em;
+    }
+
+    header ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    header ul li {
+      display: inline;
+    }
+
+    header ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    header ul li a:hover {
+      background-color: #a3d5ff;
+      color: #004080;
+    }
+
+    header img {
+      max-width: 100px;
+      margin-top: 20px;
+    }
+
+    p {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.1em;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      header ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      header img {
+        max-width: 80px;
+      }
+    }
+  </style>
 </head>
 <body>
-    
-    <header>
-        <h1>Luxo</h1>
-        <h1>Aluguel de Iates</h1>
-        <ul>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Aluguel de Iates</a></li>
-            <li><a href="#">Destinos</a></li>
-            <li><a href="#">Tripulação</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-        <img src="imagens/barco1.png" alt="Logo barco">
-    </header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti distinctio, saepe expedita ducimus a quae ab aliquam impedit odio illum, quidem autem repudiandae eaque fuga molestias porro consequatur laborum?</p>
+
+  <header>
+    <h1>Luxo</h1>
+    <h1>Aluguel de Iates</h1>
+    <ul>
+      <li><a href="#">Página Inicial</a></li>
+      <li><a href="#">Aluguel de Iates</a></li>
+      <li><a href="#">Destinos</a></li>
+      <li><a href="#">Tripulação</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <img src="imagens/barco1.png" alt="Logo barco">
+  </header>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci deleniti distinctio, saepe expedita ducimus a quae ab aliquam impedit odio illum, quidem autem repudiandae eaque fuga molestias porro consequatur laborum?
+  </p>
+
 </body>
 </html>
+
