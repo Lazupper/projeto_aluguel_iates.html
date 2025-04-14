@@ -5,6 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luxo - Aluguel de Iates</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e6f2ff;
+            color: #003366;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 5px;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        header ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header ul li a:hover {
+            color: #a3d5ff;
+        }
+
+        header img {
+            max-width: 100px;
+            margin-top: 15px;
+        }
+
+        .principal {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            background-color: #cce6ff;
+        }
+
+        .principal img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .principal-texto {
+            text-align: center;
+        }
+
+        .conteudo {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .conteudo img {
+            max-width: 90%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .conteudo-destino,
+        .conteudo-frota {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #004080;
+        }
+
+        h3 {
+            color: #0066cc;
+        }
+
+        p {
+            color: #003366;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            header img {
+                max-width: 80px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -21,6 +133,7 @@
         </ul>
         <img src="imagens/barco1.png" alt="Logo barco">
     </header>
+
     <div class="principal">
         <img src="imagens/barcoprincipal.jpg" alt="Iate de Luxo">
         <div class="principal-texto">
@@ -56,7 +169,11 @@
         <img src="imagens/barconossafrota2.jpg" alt="Barcos a Vela">
     </div>
 
-    &copy; 2023 por Luxo Aluguel de Iates
+    <footer>
+        &copy; 2023 por Luxo Aluguel de Iates
+    </footer>
+
 </body>
 
 </html>
+
