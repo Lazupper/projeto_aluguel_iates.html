@@ -1,0 +1,195 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: #EBEBEB;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#geral {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* Topo / Navegação */
+nav {
+  background-color: #21272B;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  flex-wrap: wrap;
+}
+
+#logomarca {
+  display: flex;
+  align-items: center;
+}
+
+#logotipo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#empresa h1 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #1BB4E8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+#empresa h2 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #ccc;
+  font-style: italic;
+}
+
+#barra-de-acesso ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#barra-de-acesso a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#barra-de-acesso a:hover {
+  color: #1BB4E8;
+}
+
+/* Imagem principal */
+#view {
+  position: relative;
+}
+
+#foto-grande img {
+  width: 100%;
+  height: auto;
+}
+
+/* Bloco texto da imagem principal */
+#chamada {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  background-color: rgba(0, 44, 76, 0.9);
+  color: white;
+  padding: 30px;
+  max-width: 350px;
+  border-radius: 2px;
+}
+
+#chamada p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#chamada span {
+  color: #C6B07F;
+  font-weight: bold;
+}
+
+/*Destinos */
+#todafrota{
+
+ display: flex;
+ justify-content: space-around;
+
+ 
+}
+
+#imagem-destino{
+ 
+  background-color: #1BB4E8;
+display: flex;
+height: 53px;
+font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+
+h3{
+ position: relative;
+ top: 15px;
+margin-left: 8px;
+color: white;
+
+}
+
+#destinos{
+
+width: 1800px;
+margin: 30px;
+
+}
+#texto-destino{
+margin-top: 10px;
+}
+h4{
+font-style: italic;
+padding: 10px;
+font-size: 20px;
+}
+
+.textofrota{
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+}
+
+
+/* Nossa Frota*/
+
+#imagem-nossafrota{
+background-color:  #C6B07F;
+display: flex;
+height: 53px;
+font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+
+#nossafrota{
+
+width: 1700px; 
+margin: 30px;
+}
+
+#mosaicos{
+  margin: 0px;
+  height: 266px;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+gap: 20px;
+
+  
+
+
+}
+
+/* Rodapé */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #444;
+  margin-top: 30px;
+}
